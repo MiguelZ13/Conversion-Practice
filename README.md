@@ -1,11 +1,11 @@
 # Conversion-Practice
 Python script to help practice conversion between binary, hexadecimal, and decimal
 
-# Usage
+## Usage
+```bash
 usage: conversion_practice.py [-h] [-b BYTES] [-i INPUT] [-o OUTPUT] [-r ROUNDS]
 
-## options
-available through conversion_practice.py
+options
   -h, --help            show this help message and exit
   -b, --bytes BYTES     Number of bytes for generated number (default: 2)
   -i, --input INPUT     Type that is to be converted (default: hex)
