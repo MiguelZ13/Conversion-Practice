@@ -75,7 +75,7 @@ def main():
     
     correct = 0
     for i in range(rounds):
-        num = random.randint(0, 2^(4 * bytes))
+        num = random.randint(0, 2 ** (4 * bytes))
         answer = input(f"Give the {out} representation of {in_func(num)}:\n")
         if int(answer) == num:
             correct += 1
@@ -86,3 +86,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
